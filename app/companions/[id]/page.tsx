@@ -1,5 +1,7 @@
-export const CompnaionSession = () => {
+const CompnaionSession = () => {
   return (
     <div>CompnaionSession</div>
   )
 }
+
+export default CompnaionSession;
