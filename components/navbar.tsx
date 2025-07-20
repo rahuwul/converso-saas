@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import Navitems from "./navitems"
 
-export const Navbar = () => {
+const Navbar = () => {
   return (
   <nav className= "navbar" >
     <Link href="/">
@@ -19,3 +19,5 @@ export const Navbar = () => {
   </nav>
   )
 }
+
+export default Navbar;
