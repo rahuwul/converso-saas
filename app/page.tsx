@@ -35,7 +35,7 @@ const Page = () => {
          color='#BDE7FF'
         />
       </section>
-      <section>
+      <section  className='home-section'>
         <CTA/>
         <CompanionsList
         title='Recently Completed Sessions'
